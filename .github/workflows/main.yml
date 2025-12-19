@@ -1,4 +1,4 @@
-name: Automated Preprocessing
+name: Automated Preprocessing - Heart Disease
 
 on:
   push:
@@ -16,10 +16,12 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9'
+          python-version: "3.9"
 
       - name: Install dependencies
-        run: pip install pandas
+        run: |
+          pip install pandas
 
       - name: Run preprocessing script
-        run: python preprocessing/automate_Zahwa.py
+        run: |
+          python preprocessing/automate_Zahwa.py
