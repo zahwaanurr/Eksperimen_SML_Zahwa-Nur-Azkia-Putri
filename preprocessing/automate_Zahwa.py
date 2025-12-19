@@ -19,6 +19,6 @@ def preprocess_data(input_path, output_path):
 
 if __name__ == "__main__":
     preprocess_data(
-        input_path="../heart_raw/heart.csv",
+        input_path="heart_raw/heart.csv",
         output_path="heart_preprocessed.csv"
     )
