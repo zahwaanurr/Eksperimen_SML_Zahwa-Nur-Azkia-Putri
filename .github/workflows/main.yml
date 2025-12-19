@@ -1,4 +1,4 @@
-name: Eksperimen_SML_Zahwa
+name: Automated Preprocessing - Heart Disease
 
 on:
   push:
